@@ -2,59 +2,96 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f6f8;
-    color: #333;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+    background-color: #f9f9f9;
 }
 
-.container {
-    max-width: 900px;
-    margin: 30px auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+nav {
+    background-color: #004c99;
+    padding: 10px;
+    text-align: center;
 }
 
-h1, h2 {
-    color: #0056b3;
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-ul {
-    padding-left: 20px;
+nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
 
-.dashboard-img {
-    width: 100%;
-    margin: 15px 0;
-    border-radius: 6px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-}
-
-.figure-caption {
-    font-size: 0.9em;
-    color: #555;
-    margin-bottom: 30px;
-}
-
-.download-section {
-    margin-top: 30px;
-}
-
-.download-section a {
-    display: inline-block;
-    margin-right: 15px;
-    text-decoration: none;
-    background: #0056b3;
+nav a {
     color: #fff;
-    padding: 10px 15px;
-    border-radius: 4px;
-    transition: background 0.3s;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.download-section a:hover {
-    background: #003f7f;
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
 }
 
-a {
-    color: #0056b3;
+.hero img.profile-photo {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #004c99;
+}
+
+.project-card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.project-card img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #004c99;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.coming-soon {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #555;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004c99;
+    color: white;
 }
