@@ -18,66 +18,54 @@
             <h2>Project Overview</h2>
             <p>
                 This project explores customer demographics, spending patterns, and advertising effectiveness 
-                using Excel, SQL, Tableau, and R. The goal was to uncover insights that help the 2Market supermarket 
-                improve marketing strategy, product targeting, and customer segmentation.
+                using Excel, SQL, Tableau, and R. The goal was to uncover insights that help 2Market improve marketing 
+                strategy, product targeting, and customer segmentation.
             </p>
         </section>
 
         <section>
-            <h2>Dashboards & Explanations</h2>
+            <h2>3. Key Findings</h2>
+            <p>
+                Three interactive Tableau dashboards were developed to present key customer insights clearly and engagingly.
+            </p>
 
-            <div class="dashboard-block">
-                <h3>1️⃣ Demographics & Spending Patterns Dashboard</h3>
-                <img src="Dashboard1.png" alt="Customer Demographics Dashboard">
-                <p>
-                    This dashboard provides an overview of customer age, income, marital status, and education level.
-                    It reveals patterns in who the customers are and how these factors relate to their spending behavior.
-                </p>
-                <ul>
-                    <li>Average customer age: ~55 years (44 years if using 2014 as the base).</li>
-                    <li>Largest customer group: married (38.7%), followed by 'together' (26%).</li>
-                    <li>Positive correlation between age, income, and education level.</li>
-                    <li>Master’s and PhD holders have the highest average spending.</li>
-                    <li>Liquor and non-vegetables are top product categories among highly educated and married customers.</li>
-                </ul>
-                <p><em>Figure 1: Demographics & Spending</em></p>
-            </div>
+            <h3>Demographics & Spending Patterns Dashboard Highlights</h3>
+            <ul>
+                <li>The average customer age is approximately 55 years (44 years if considering 2014 as the base).</li>
+                <li>Married individuals represent the largest segment, with ~857 customers (38.7%), followed by 'together' (573, 26%).</li>
+                <li>There’s a positive correlation between age, income, and education.</li>
+                <li>Master’s and PhD holders demonstrate the highest average spending.</li>
+                <li>Liquor and non-vegetables are top product categories, especially among higher-educated and married customers.</li>
+            </ul>
+            <p>The scatterplot illustrates income vs. age, segmented by education, with circle size showing average spend.</p>
+            <p><em>Figure 1: Demographics & Spending</em></p>
+            <img src="Dashboard1.png" alt="Demographics & Spending Dashboard">
 
-            <div class="dashboard-block">
-                <h3>2️⃣ High-Income Segment Analysis Dashboard</h3>
-                <img src="Dashboard2.png" alt="High-Income Segment Dashboard">
-                <p>
-                    This scatterplot visualizes the relationship between income and age, segmented by education level.
-                    Each point represents an individual customer, with circle size indicating average total spend.
-                </p>
-                <ul>
-                    <li>High-income customers ($90K–$100K) are typically ~53 years old.</li>
-                    <li>Single and divorced customers spend the most in this group.</li>
-                    <li>Master’s degree holders lead in spending.</li>
-                    <li>Surprisingly, 60% of purchases still occur in-store, even among digitally engaged customers.</li>
-                    <li>Instagram is the top-performing ad channel, appealing to this group’s preference for aspirational content.</li>
-                    <li>Households without young kids spend more on premium products like liquor, chocolates, and meat.</li>
-                </ul>
-                <p><em>Figure 2: High-Income Segment Analysis ($90K–$100K)</em></p>
-            </div>
+            <p>
+                High-income customers ($90K–$100K) are typically around 53 years old; single and divorced customers spend the most. 
+                Spending is strongly tied to education, with master’s holders leading. Surprisingly, 60% of purchases still occur in-store, 
+                even among this digitally engaged group—highlighting the value of in-store experiences.
+                Instagram is the top-performing ad channel, appealing to this segment’s preference for visually rich content.
+                SQL analysis also shows households without young kids spend more on premium products like liquor, chocolates, and meat, 
+                suggesting strong potential for Instagram-driven premium campaigns targeting older, high-income, educated customers.
+            </p>
+            <p><em>Figure 2: High-Income Segment Analysis ($90K–$100K)</em></p>
+            <img src="Dashboard2.png" alt="High-Income Segment Dashboard">
 
-            <div class="dashboard-block">
-                <h3>3️⃣ Country-Level Spend & Ad Summary Dashboard</h3>
-                <img src="Dashboard3.png" alt="Country Spend and Ad Summary Dashboard">
-                <p>
-                    This dashboard shows country-level customer spending, response to social media ads, 
-                    and the percentage of revenue from customers who converted via social media.
-                </p>
-                <ul>
-                    <li>Spain leads with the highest total spend ($659,557) and social revenue share (36%).</li>
-                    <li>Canada and South Africa follow, each with ~31% social revenue share.</li>
-                    <li>Montenegro shows no conversions from social media ads.</li>
-                </ul>
-                <p>
-                    These insights highlight where social ads are most effective and where to focus future campaigns.
-                </p>
-                <p><em>Figure 3: Country Spend & Ad Summary</em></p>
-            </div>
+            <p>
+                Dashboard 3 shows country-level customer spending, social ad response, and Unique % of Social Revenue (spending from customers 
+                who converted via at least one social platform):
+            </p>
+            <ul>
+                <li>Spain leads with the highest total spend ($659,557) and Social Revenue Unique % (36%).</li>
+                <li>Canada and South Africa follow with 31% each.</li>
+                <li>Montenegro shows no social media conversions.</li>
+            </ul>
+            <p>
+                These insights help identify where social ads are most effective and guide future campaign targeting.
+            </p>
+            <p><em>Figure 3: Country Spend & Ad Summary</em></p>
+            <img src="Dashboard3.png" alt="Country Spend and Ad Summary Dashboard">
         </section>
 
         <section>
@@ -97,3 +85,4 @@
     </footer>
 </body>
 </html>
+
