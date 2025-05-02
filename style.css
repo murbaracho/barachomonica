@@ -1,42 +1,28 @@
-/* Header */
+body {
+    font-family: Arial, sans-serif;
+}
+
 header {
-    background: linear-gradient(135deg, #f8f9fa 0%, #dfe3e6 100%);
-    padding: 3rem 1rem;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
 }
 
-.profile-img {
-    border: 4px solid #003366;
-    width: 150px;
-    height: 150px;
+.navbar {
+    background-color: #343a40 !important;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.card-img-top {
     object-fit: cover;
 }
 
-/* Navbar */
-.navbar.bg-primary {
-    background-color: #003366 !important;
-}
-
-/* Buttons */
-.btn-primary {
-    background-color: #003366;
-    border-color: #003366;
-}
-
-.btn-primary:hover {
-    background-color: #002244;
-    border-color: #002244;
-}
-
-/* Card images */
-.project-img {
-    height: 250px;
-    object-fit: cover;
-}
-
-/* Footer */
 footer {
-    background-color: #003366;
+    background-color: #343a40;
 }
-
-
-
