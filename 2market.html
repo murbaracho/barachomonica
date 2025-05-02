@@ -2,48 +2,90 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>2Market Project – Monica Baracho</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2Market Project — Monica Baracho</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>2Market Project – Key Findings</h1>
-        <p>Three interactive Tableau dashboards were developed to present key customer insights clearly and engagingly.</p>
+    <section class="container my-5">
+        <h1 class="text-center mb-4">2Market Customer Purchase Behavior</h1>
+        <p class="text-center">
+            This project explores customer demographics, spending patterns, and advertising effectiveness across channels, using R, SQL, Tableau, and Excel.
+            Below, you’ll find key dashboard visualizations and insights.
+        </p>
+    </section>
 
-        <h2>Demographics & Spending Patterns Dashboard Highlights</h2>
-        <ul>
-            <li>The average customer age is approximately 55 years (44 years if considering 2014 as the base).</li>
-            <li>Married individuals represent the largest segment, with ~857 customers (38.7%), followed by 'together' (573, 26%).</li>
-            <li>There’s a positive correlation between age, income, and education.</li>
-            <li>Master’s and PhD holders demonstrate the highest average spending.</li>
-            <li>Liquor and non-vegetables are top product categories, especially among higher-educated and married customers.</li>
-        </ul>
-        <p>The scatterplot illustrates income vs. age, segmented by education, with circle size showing average spend.</p>
-        <img src="Dashboard1.png" alt="Dashboard 1" class="dashboard-img">
-        <p class="figure-caption">Figure 1: Demographics & Spending</p>
+    <section class="container my-5">
+        <h2 class="mb-4">Key Findings</h2>
 
-        <h2>High-Income Segment Analysis ($90K–$100K)</h2>
-        <p>High-income customers ($90K–$100K) are typically around 53 years old; single and divorced customers spend the most. Spending is strongly tied to education, with master’s holders leading. Surprisingly, 60% of purchases still occur in-store, even among this digitally engaged group—highlighting the value of in-store experiences. Instagram is the top-performing ad channel, appealing to this segment’s preference for visually rich content. SQL analysis also shows households without young kids spend more on premium products like liquor, chocolates, and meat, suggesting strong potential for Instagram-driven premium campaigns targeting older, high-income, educated customers.</p>
-        <img src="Dashboard2.png" alt="Dashboard 2" class="dashboard-img">
-        <p class="figure-caption">Figure 2: High-Income Segment Analysis ($90K–$100K)</p>
-
-        <h2>Country Spend & Ad Summary</h2>
-        <p>Dashboard 3 shows country-level customer spending, social ad response, and Unique % of Social Revenue (spending from customers who converted via at least one social platform):</p>
-        <ul>
-            <li>Spain leads with the highest total spend ($659,557) and Social Revenue Unique % (36%).</li>
-            <li>Canada and South Africa follow with 31% each.</li>
-            <li>Montenegro shows no social media conversions.</li>
-        </ul>
-        <p>These insights help identify where social ads are most effective and guide future campaign targeting.</p>
-        <img src="Dashboard3.png" alt="Dashboard 3" class="dashboard-img">
-        <p class="figure-caption">Figure 3: Country Spend & Ad Summary</p>
-
-        <div class="download-section">
-            <a href="Baracho_Monica_2Market.pdf" target="_blank">📄 Download Full Report (PDF)</a><br>
-            <a href="https://public.tableau.com/app/profile/YOUR_USERNAME/viz/2MarketDashboard" target="_blank">📊 View Interactive Tableau Dashboard</a>
+        <div class="card mb-3 shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">Demographics & Spending Patterns</h5>
+                <p class="card-text">
+                    • Average customer age: ~55 years (44 if base year 2014)<br>
+                    • Married customers: largest segment (~857, 38.7%)<br>
+                    • Positive correlation between age, income, education<br>
+                    • Master’s and PhD holders spend the most<br>
+                    • Top products: liquor, non-vegetables (esp. among married, highly educated)
+                </p>
+            </div>
         </div>
 
-        <p><a href="index.html">← Back to Portfolio</a></p>
-    </div>
+        <div class="card mb-3 shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">High-Income Segment Analysis ($90K–$100K)</h5>
+                <p class="card-text">
+                    • Average age: 53 years<br>
+                    • Single and divorced spend the most<br>
+                    • 60% of purchases still in-store<br>
+                    • Instagram is the top-performing ad channel<br>
+                    • No young kids = more premium spending
+                </p>
+            </div>
+        </div>
+
+        <div class="card mb-3 shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">Country Spend & Ad Summary</h5>
+                <p class="card-text">
+                    • Spain leads: $659,557 spend, 36% social ad conversion<br>
+                    • Canada, South Africa ~31% each<br>
+                    • Montenegro: no social conversions
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5">
+        <h2 class="mb-4">Dashboard Visuals</h2>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <img src="Dashboard1.png" class="img-fluid rounded shadow-sm" alt="Dashboard 1">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="Dashboard2.png" class="img-fluid rounded shadow-sm" alt="Dashboard 2">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="Dashboard3.png" class="img-fluid rounded shadow-sm" alt="Dashboard 3">
+            </div>
+        </div>
+    </section>
+
+    <section class="text-center my-4">
+        <a href="Baracho_Monica_2Market.pdf" class="btn btn-success btn-lg" download>
+            Download Full Report (PDF)
+        </a>
+    </section>
+
+    <section class="text-center my-4">
+        <a href="index.html" class="btn btn-outline-primary">
+            ← Back to Portfolio
+        </a>
+    </section>
+
+    <footer class="text-center py-3 bg-primary text-white">
+        &copy; 2025 Monica Baracho
+    </footer>
 </body>
 </html>
