@@ -1,64 +1,26 @@
-/* Reset some default margins */
-body, h1, h2, h3, p {
-    margin: 0;
-    padding: 0;
+/* Make navbar and buttons industry-friendly */
+.navbar.bg-primary {
+    background-color: #003366 !important; /* dark navy */
 }
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+.btn-primary {
+    background-color: #003366;
+    border-color: #003366;
 }
 
-/* Header section */
-header {
-    background: linear-gradient(to right, #4facfe, #00f2fe);
-    color: white;
+.btn-primary:hover {
+    background-color: #002244;
+    border-color: #002244;
 }
 
-header img {
-    border: 5px solid white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-/* Navbar */
-.navbar {
-    margin-bottom: 20px;
-}
-
-.navbar-brand {
-    font-weight: bold;
-}
-
-/* Projects section */
-#projects .card {
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-#projects .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-}
-
-.card-title {
-    font-weight: bold;
-}
-
-.card-img-top {
-    height: 300px;
+/* Control card image size and responsiveness */
+.project-img {
+    height: 250px;
     object-fit: cover;
 }
 
-/* Contact section */
-#contact {
-    background-color: #f1f1f1;
-    text-align: center;
+/* Optional: rounded profile image */
+header img {
+    border: 4px solid #003366;
 }
 
-#contact a.btn {
-    margin: 5px;
-}
-
-footer {
-    font-size: 0.9rem;
-}
