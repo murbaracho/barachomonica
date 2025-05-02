@@ -1,26 +1,36 @@
-/* Make navbar and buttons industry-friendly */
-.navbar.bg-primary {
-    background-color: #003366 !important; /* dark navy */
+/* Header */
+header {
+    background-color: #f8f9fa;
+    padding: 3rem 1rem;
 }
 
+/* Navbar */
+.navbar.bg-primary {
+    background-color: #003366 !important;
+}
+
+/* Buttons */
 .btn-primary {
     background-color: #003366;
     border-color: #003366;
 }
-
 .btn-primary:hover {
     background-color: #002244;
     border-color: #002244;
 }
 
-/* Control card image size and responsiveness */
+/* Card images */
 .project-img {
     height: 250px;
     object-fit: cover;
 }
 
-/* Optional: rounded profile image */
+/* Profile image with a nice border */
 header img {
     border: 4px solid #003366;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
+
 
