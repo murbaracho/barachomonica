@@ -1,22 +1,64 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* Reset some default margins */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
 }
 
-.profile-img {
-    border: 4px solid #007bff;
-    padding: 4px;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header section */
+header {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+}
+
+header img {
+    border: 5px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Projects section */
+#projects .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#projects .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .card-title {
     font-weight: bold;
 }
 
-.card:hover {
-    transform: scale(1.02);
-    transition: transform 0.3s;
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Contact section */
+#contact {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+#contact a.btn {
+    margin: 5px;
 }
 
 footer {
-    background-color: #007bff;
-    color: white;
+    font-size: 0.9rem;
 }
