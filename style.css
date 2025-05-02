@@ -1,21 +1,22 @@
-/* Apply a nice clean font to the whole site */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Add a colored border around the profile photo in the header */
-header img {
-    border: 5px solid #0d6efd; /* Bootstrap primary blue */
+.profile-img {
+    border: 4px solid #007bff;
+    padding: 4px;
 }
 
-/* Make sure the project images are neatly cropped and fit the card area */
-.card-img-top {
-    height: 300px;
-    object-fit: cover;
+.card-title {
+    font-weight: bold;
 }
 
-/* Style the footer background */
+.card:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s;
+}
+
 footer {
-    background-color: #0d6efd; /* Bootstrap primary blue */
+    background-color: #007bff;
+    color: white;
 }
-
